@@ -25,7 +25,7 @@ function App() {
             <BrowserRouter>
                 <Navbar/>
                 {lang.data.hideoutStations.map((item, index) => (
-                    <Section name={item.name} image={item.imageLink} items={item.levels}  id={index} key={index}/>
+                    <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
                 ))}
             </BrowserRouter>
 

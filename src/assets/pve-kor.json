@@ -1,0 +1,3265 @@
+{
+  "data": {
+    "hideoutStations": [
+      {
+        "name": "태양열 발전기",
+        "imageLink": "https://assets.tarkov.dev/station-solar-power.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 25000,
+                "id": "5d494a385b56502f18c98a0c-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.webp",
+                  "name": "유로 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Euros"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a385b56502f18c98a0c-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d0375ff86f774186372f685-image.webp",
+                  "name": "Military cable 군용 케이블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_cable"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d494a385b56502f18c98a0c-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d03775b86f774203e7e0c4b-image.webp",
+                  "name": "AESA 위상 배열 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phased_array_element"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a385b56502f18c98a0c-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d0378d486f77420421a5ff4-image.webp",
+                  "name": "Military power filter 군용 전력 필터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_power_filter"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a385b56502f18c98a0c-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b304286f774253763a528-image.webp",
+                  "name": "Working LCD 작동하는 LCD",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Working_LCD"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a385b56502f18c98a0c-1-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/6389c85357baa773a825b356-image.webp",
+                  "name": "Advanced current converter",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Advanced_current_converter"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "보안 시설",
+        "imageLink": "https://assets.tarkov.dev/station-security.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 20000,
+                "id": "5d484fb3654e7600681d9314-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fb3654e7600681d9314-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2c9c86f774245b1f03f2-image.webp",
+                  "name": "Measuring tape 건축용 줄자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Construction_measuring_tape"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 45000,
+                "id": "5d484fb3654e7600681d9314-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fb3654e7600681d9314-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-image.webp",
+                  "name": "Pliers Elite 엘리트 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fb3654e7600681d9314-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c5bbd86f774785762df04-image.webp",
+                  "name": "WD-40 (100ml)",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WD-40_(100ml)"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fb3654e7600681d9314-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/60391b0fb847c71012789415-image.webp",
+                  "name": "TP-200 TNT 블록 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TP-200_TNT_brick"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 2,
+                "id": "5d484fb3654e7600681d9314-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b304286f774253763a528-image.webp",
+                  "name": "Working LCD 작동하는 LCD",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Working_LCD"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d484fb3654e7600681d9314-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 8,
+                "id": "5d484fb3654e7600681d9314-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2ffd86f77425243e8d17-image.webp",
+                  "name": "NIXXOR 닉콘 렌즈 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NIXXOR_lens"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fb3654e7600681d9314-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c392f86f77444754deb29-image.webp",
+                  "name": "SSD 드라이브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSD_drive"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "물 공급 시설",
+        "imageLink": "https://assets.tarkov.dev/station-water-collector.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 4,
+                "id": "5d484fc8654e760065037abf-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fc8654e760065037abf-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fc8654e760065037abf-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-image.webp",
+                  "name": "Screw nuts 너트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fc8654e760065037abf-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 6,
+                "id": "5d484fc8654e760065037abf-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fc8654e760065037abf-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fc8654e760065037abf-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fc8654e760065037abf-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-image.webp",
+                  "name": "KEKTAPE 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 20000,
+                "id": "5d484fc8654e760065037abf-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fc8654e760065037abf-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-image.webp",
+                  "name": "Pliers Elite 엘리트 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fc8654e760065037abf-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c35a486f774273531c822-image.webp",
+                  "name": "Shustrilo 슈스트릴로 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fc8654e760065037abf-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-image.webp",
+                  "name": "Ratchet wrench 라쳇 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Gear Rack",
+        "imageLink": "https://assets.tarkov.dev/station-unknown.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/544fb5454bdc2df8738b456a-image.webp",
+                  "name": "Leatherman 멀티툴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Leatherman_Multitool"
+                }
+              },
+              {
+                "count": 10,
+                "id": "65e5bb1713227bb7690cea0a-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af47786f7746d404f3aaa-image.webp",
+                  "name": "Fleece 플리스 원단 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fleece_fabric"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf83814088ec1a363d7097-image.webp",
+                  "name": "Sewing kit 재봉 키트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sewing_kit"
+                }
+              },
+              {
+                "count": 8,
+                "id": "65e5bb1713227bb7690cea0a-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 15,
+                "id": "65e5bb1713227bb7690cea0a-1-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-1-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a098de7ac8199358053b-image.webp",
+                  "name": "Awl",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Awl"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-1-10",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 300000,
+                "id": "65e5bb1713227bb7690cea0a-1-11",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c311186f77424d1667482-image.webp",
+                  "name": "Wrench 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wrench"
+                }
+              },
+              {
+                "count": 10,
+                "id": "65e5bb1713227bb7690cea0a-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af4d286f7746d4159f07a-image.webp",
+                  "name": "Aramid 아라미드 원단 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aramid_fiber_fabric"
+                }
+              },
+              {
+                "count": 12,
+                "id": "65e5bb1713227bb7690cea0a-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 8,
+                "id": "65e5bb1713227bb7690cea0a-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-image.webp",
+                  "name": "Nails 못  상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                }
+              },
+              {
+                "count": 3,
+                "id": "65e5bb1713227bb7690cea0a-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c35a486f774273531c822-image.webp",
+                  "name": "Shustrilo 슈스트릴로 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
+                }
+              },
+              {
+                "count": 5,
+                "id": "65e5bb1713227bb7690cea0a-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-2-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 800000,
+                "id": "65e5bb1713227bb7690cea0a-2-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-image.webp",
+                  "name": "Ratchet wrench 라쳇 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a0bb621468534a797ad5-image.webp",
+                  "name": "Set of files \"Master\"",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
+                }
+              },
+              {
+                "count": 15,
+                "id": "65e5bb1713227bb7690cea0a-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 5,
+                "id": "65e5bb1713227bb7690cea0a-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-image.webp",
+                  "name": "KEKTAPE 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                }
+              },
+              {
+                "count": 15,
+                "id": "65e5bb1713227bb7690cea0a-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 10,
+                "id": "65e5bb1713227bb7690cea0a-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af41e86f774755a234b67-image.webp",
+                  "name": "Cordura 코듀라 폴리아미드 원단 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cordura_polyamide_fabric"
+                }
+              },
+              {
+                "count": 1,
+                "id": "65e5bb1713227bb7690cea0a-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/591094e086f7747caa7bb2ef-image.webp",
+                  "name": "Body armor repair kit 방탄복 수리 키트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Body_armor_repair_kit"
+                }
+              },
+              {
+                "count": 1200000,
+                "id": "65e5bb1713227bb7690cea0a-3-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "휴식 공간",
+        "imageLink": "https://assets.tarkov.dev/station-rest-space.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 10000,
+                "id": "5d484fd6654e76051d3cc791-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd6654e76051d3cc791-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd6654e76051d3cc791-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-image.webp",
+                  "name": "Classic matches 클래식 성냥 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 35000,
+                "id": "5d484fd6654e76051d3cc791-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd6654e76051d3cc791-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734781f24597737e04bf32a-image.webp",
+                  "name": "DVD 드라이브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DVD_drive"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd6654e76051d3cc791-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a391c86f774385a33c404-image.webp",
+                  "name": "Magnet 자석 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Magnet"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fd6654e76051d3cc791-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 4,
+                "id": "5d484fd6654e76051d3cc791-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fd6654e76051d3cc791-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-image.webp",
+                  "name": "Capacitors 축전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
+                }
+              },
+              {
+                "count": 7,
+                "id": "5d484fd6654e76051d3cc791-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fd6654e76051d3cc791-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2aedd986f7746d404f3aa4-image.webp",
+                  "name": "GreenBat battery 리튬 배터리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GreenBat_lithium_battery"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "작업대",
+        "imageLink": "https://assets.tarkov.dev/station-workbench.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 2,
+                "id": "5d484fda654e7600681d9315-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-image.webp",
+                  "name": "Screw nuts 너트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fda654e7600681d9315-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fda654e7600681d9315-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/544fb5454bdc2df8738b456a-image.webp",
+                  "name": "Leatherman 멀티툴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Leatherman_Multitool"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 3,
+                "id": "5d484fda654e7600681d9315-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fda654e7600681d9315-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 6,
+                "id": "5d484fda654e7600681d9315-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fda654e7600681d9315-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-image.webp",
+                  "name": "Weapon parts 무기 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fda654e7600681d9315-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a0bb621468534a797ad5-image.webp",
+                  "name": "Set of files \"Master\"",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 395000,
+                "id": "5d484fda654e7600681d9315-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fda654e7600681d9315-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-image.webp",
+                  "name": "Pliers Elite 엘리트 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fda654e7600681d9315-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5bc9b355d4351e6d1509862a-image.webp",
+                  "name": "#FireKlean 총기 윤활유 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FireKlean_gun_lube"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fda654e7600681d9315-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/60391a8b3364dc22b04d0ce5-image.webp",
+                  "name": "Thermite 테르밋 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_thermite"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "스캐브 케이스",
+        "imageLink": "https://assets.tarkov.dev/station-scav-case.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 3,
+                "id": "5d494a175b56502f18c98a04-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3639286f7741777737013-image.webp",
+                  "name": "Lion 청동 사자상 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bronze_lion_figurine"
+                }
+              },
+              {
+                "count": 6,
+                "id": "5d494a175b56502f18c98a04-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d235a5986f77443f6329bc6-image.webp",
+                  "name": "Gold skull ring 황금 해골 반지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gold_skull_ring"
+                }
+              },
+              {
+                "count": 8,
+                "id": "5d494a175b56502f18c98a04-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734758f24597738025ee253-image.webp",
+                  "name": "Golden neck chain 금목걸이 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_neck_chain"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d494a175b56502f18c98a04-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59faf7ca86f7740dbe19f6c2-image.webp",
+                  "name": "Roler 롤러 서브마리너 골드 손목시계 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roler_Submariner_gold_wrist_watch"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a175b56502f18c98a04-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b376e86f774252519444e-image.webp",
+                  "name": "Moonshine 문샤인 \"맹렬한 도끼런\" 밀주 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a175b56502f18c98a04-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5b7c710788a4506dec015957-image.webp",
+                  "name": "Lucky Scav Junk box 럭키 스캐브의 고물상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lucky_Scav_Junk_box"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a175b56502f18c98a04-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5bc9bc53d4351e00367fbcee-image.webp",
+                  "name": "Golden rooster 황금 수탉 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "화장실",
+        "imageLink": "https://assets.tarkov.dev/station-lavatory.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 2000,
+                "id": "5d484fba654e7600691aadf7-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c13cef886f774072e618e82-image.webp",
+                  "name": "Toilet paper 화장지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toilet_paper"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c93245977448d35f6e3-image.webp",
+                  "name": "Toothpaste 치약 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toothpaste"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c13cd2486f774072c757944-image.webp",
+                  "name": "Soap 비누 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Soap"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a098de7ac8199358053b-image.webp",
+                  "name": "Awl",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Awl"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 3,
+                "id": "5d484fba654e7600691aadf7-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fba654e7600691aadf7-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-image.webp",
+                  "name": "KEKTAPE 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fba654e7600691aadf7-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf83814088ec1a363d7097-image.webp",
+                  "name": "Sewing kit 재봉 키트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sewing_kit"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 6,
+                "id": "5d484fba654e7600691aadf7-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fba654e7600691aadf7-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b327086f7742525194449-image.webp",
+                  "name": "Pressure gauge 압력게이지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pressure_gauge"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fba654e7600691aadf7-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fba654e7600691aadf7-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c346786f77423e50ed342-image.webp",
+                  "name": "Xenomorph 제노모프 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Xenomorph_sealing_foam"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "헬스장",
+        "imageLink": "https://assets.tarkov.dev/station-gym.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "6377a9b9a93bde8fa30eb79a-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 1,
+                "id": "6377a9b9a93bde8fa30eb79a-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 1,
+                "id": "6377a9b9a93bde8fa30eb79a-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d40419286f774318526545f-image.webp",
+                  "name": "Metal cutting scissors 판금가위 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_cutting_scissors"
+                }
+              },
+              {
+                "count": 3,
+                "id": "6377a9b9a93bde8fa30eb79a-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-image.webp",
+                  "name": "Screw nuts 너트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                }
+              },
+              {
+                "count": 3,
+                "id": "6377a9b9a93bde8fa30eb79a-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "6377a9b9a93bde8fa30eb79a-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c5bbd86f774785762df04-image.webp",
+                  "name": "WD-40 (100ml)",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WD-40_(100ml)"
+                }
+              },
+              {
+                "count": 1,
+                "id": "6377a9b9a93bde8fa30eb79a-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734795124597738002c6176-image.webp",
+                  "name": "Insulating tape 절연 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "양조 시설",
+        "imageLink": "https://assets.tarkov.dev/station-booze-generator.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 4,
+                "id": "5d494a3f5b56502f18c98a0e-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b39a386f774252339976f-image.webp",
+                  "name": "Silicone tube 실리콘 튜브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicone_tube"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a3f5b56502f18c98a0e-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b32c186f774252167a530-image.webp",
+                  "name": "Analog thermometer 아날로그 온도계 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Analog_thermometer"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a3f5b56502f18c98a0e-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b327086f7742525194449-image.webp",
+                  "name": "Pressure gauge 압력게이지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pressure_gauge"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a3f5b56502f18c98a0e-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a3f5b56502f18c98a0e-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/619cbfccbedcde2f5b3f7bdd-image.webp",
+                  "name": "Pipe grip wrench 파이프 그립 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pipe_grip_wrench"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a3f5b56502f18c98a0e-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1c774f86f7746d6620f8db-image.webp",
+                  "name": "Radiator helix 라디에이터 나선관 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radiator_helix"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a3f5b56502f18c98a0e-1-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "난방 시설",
+        "imageLink": "https://assets.tarkov.dev/station-heating.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 25000,
+                "id": "5d388e97081959000a123acf-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d388e97081959000a123acf-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-image.webp",
+                  "name": "Classic matches 클래식 성냥 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 50000,
+                "id": "5d388e97081959000a123acf-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d388e97081959000a123acf-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af2bc86f7746d3f3c33fc-image.webp",
+                  "name": "Hunting matches 사냥용 성냥 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hunting_matches"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d388e97081959000a123acf-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a373286f774287540368b-image.webp",
+                  "name": "Dry fuel 고체연료 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dry_fuel"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d388e97081959000a123acf-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/56742c284bdc2d98058b456d-image.webp",
+                  "name": "Crickent 크리켄트 라이터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crickent_lighter"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 8,
+                "id": "5d388e97081959000a123acf-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1c774f86f7746d6620f8db-image.webp",
+                  "name": "Radiator helix 라디에이터 나선관 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radiator_helix"
+                }
+              },
+              {
+                "count": 8,
+                "id": "5d388e97081959000a123acf-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d388e97081959000a123acf-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d388e97081959000a123acf-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/619cbf476b8a1b37a54eebf8-image.webp",
+                  "name": "Military tube 군용 주름진 튜브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_corrugated_tube"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "약해 보이는 벽",
+        "imageLink": "https://assets.tarkov.dev/station-defective-wall.png",
+        "levels": [
+          {
+            "itemRequirements": []
+          },
+          {
+            "itemRequirements": []
+          },
+          {
+            "itemRequirements": []
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-4-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/63a0b208f444d32d6f03ea1e-image.webp",
+                  "name": "Fierce Blow sledgehammer",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fierce_Blow_sledgehammer"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-5-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d40419286f774318526545f-image.webp",
+                  "name": "Metal cutting scissors 판금가위 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_cutting_scissors"
+                }
+              },
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-5-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 2,
+                "id": "637b39f02e873739ec490215-6-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-6-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              },
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-6-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-6-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-image.webp",
+                  "name": "Pliers Elite 엘리트 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                }
+              },
+              {
+                "count": 5,
+                "id": "637b39f02e873739ec490215-6-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "637b39f02e873739ec490215-6-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c346786f77423e50ed342-image.webp",
+                  "name": "Xenomorph 제노모프 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Xenomorph_sealing_foam"
+                }
+              },
+              {
+                "count": 2,
+                "id": "637b39f02e873739ec490215-6-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 2,
+                "id": "637b39f02e873739ec490215-6-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b392c86f77425243e98fe-image.webp",
+                  "name": "Light bulb 전구 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Light_bulb"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cultist Circle",
+        "imageLink": "https://assets.tarkov.dev/station-unknown.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "667298e75ea6b4493c08f266-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5b4391a586f7745321235ab2-image.webp",
+                  "name": "WI-FI 카메라 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WI-FI_Camera"
+                }
+              },
+              {
+                "count": 1,
+                "id": "667298e75ea6b4493c08f266-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2c9c86f774245b1f03f2-image.webp",
+                  "name": "Measuring tape 건축용 줄자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Construction_measuring_tape"
+                }
+              },
+              {
+                "count": 1,
+                "id": "667298e75ea6b4493c08f266-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af37686f774755a234b65-image.webp",
+                  "name": "SurvL 서바이벌 라이터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SurvL_Survivor_Lighter"
+                }
+              },
+              {
+                "count": 3,
+                "id": "667298e75ea6b4493c08f266-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a09ee4cf4a99369e262453-image.webp",
+                  "name": "Can of white salt",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_white_salt"
+                }
+              },
+              {
+                "count": 5,
+                "id": "667298e75ea6b4493c08f266-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b392c86f77425243e98fe-image.webp",
+                  "name": "Light bulb 전구 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Light_bulb"
+                }
+              },
+              {
+                "count": 1,
+                "id": "667298e75ea6b4493c08f266-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3596386f774176c10a2a2-image.webp",
+                  "name": "PAID 페이드 살충제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PAID_AntiRoach_spray"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "환기 시설",
+        "imageLink": "https://assets.tarkov.dev/station-vents.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 25000,
+                "id": "5d473c1e081959000e530190-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d473c1e081959000e530190-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d473c1e081959000e530190-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5733279d245977289b77ec24-image.webp",
+                  "name": "Car battery 자동차 배터리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Car_battery"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d473c1e081959000e530190-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734779624597737e04bf329-image.webp",
+                  "name": "CPU \bfan 쿨러 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d473c1e081959000e530190-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 4,
+                "id": "5d473c1e081959000e530190-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 14,
+                "id": "5d473c1e081959000e530190-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d473c1e081959000e530190-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3b0486f7743954552bdb-image.webp",
+                  "name": "PCB 인쇄 회로 기판 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d473c1e081959000e530190-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5733279d245977289b77ec24-image.webp",
+                  "name": "Car battery 자동차 배터리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Car_battery"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d473c1e081959000e530190-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "무기 거치대",
+        "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b317c86f7742523398392-image.webp",
+                  "name": "Hand drill 핸드드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hand_drill"
+                }
+              },
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d40419286f774318526545f-image.webp",
+                  "name": "Metal cutting scissors 판금가위 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_cutting_scissors"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 3,
+                "id": "63db64cbf9963741dc0d741f-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c346786f77423e50ed342-image.webp",
+                  "name": "Xenomorph 제노모프 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Xenomorph_sealing_foam"
+                }
+              },
+              {
+                "count": 15,
+                "id": "63db64cbf9963741dc0d741f-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734795124597738002c6176-image.webp",
+                  "name": "Insulating tape 절연 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-image.webp",
+                  "name": "Nails 못  상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a0bb621468534a797ad5-image.webp",
+                  "name": "Set of files \"Master\"",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
+                }
+              },
+              {
+                "count": 10,
+                "id": "63db64cbf9963741dc0d741f-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 10,
+                "id": "63db64cbf9963741dc0d741f-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              },
+              {
+                "count": 10,
+                "id": "63db64cbf9963741dc0d741f-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-image.webp",
+                  "name": "Weapon parts 무기 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                }
+              },
+              {
+                "count": 3,
+                "id": "63db64cbf9963741dc0d741f-2-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af22086f7746d3f3c33fa-image.webp",
+                  "name": "Poxeram 냉간 용접 접착제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tube_of_Poxeram_cold_welding"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 15,
+                "id": "63db64cbf9963741dc0d741f-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 10,
+                "id": "63db64cbf9963741dc0d741f-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "63db64cbf9963741dc0d741f-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-image.webp",
+                  "name": "KEKTAPE 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                }
+              },
+              {
+                "count": 15,
+                "id": "63db64cbf9963741dc0d741f-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 3,
+                "id": "63db64cbf9963741dc0d741f-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c35a486f774273531c822-image.webp",
+                  "name": "Shustrilo 슈스트릴로 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
+                }
+              },
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c639286f774151567fa95-image.webp",
+                  "name": "Tech manual 기술 매뉴얼 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual"
+                }
+              },
+              {
+                "count": 1,
+                "id": "63db64cbf9963741dc0d741f-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5bc9b355d4351e6d1509862a-image.webp",
+                  "name": "#FireKlean 총기 윤활유 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FireKlean_gun_lube"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "공기 정화 시설",
+        "imageLink": "https://assets.tarkov.dev/station-air-filtering-unit.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 25000,
+                "id": "5d494a315b56502f18c98a0a-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-image.webp",
+                  "name": "달러 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a315b56502f18c98a0a-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d0378d486f77420421a5ff4-image.webp",
+                  "name": "Military power filter 군용 전력 필터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_power_filter"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a315b56502f18c98a0a-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c595c86f7747884343ad7-image.webp",
+                  "name": "Filter 방독면 정화통 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gas_mask_air_filter"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a315b56502f18c98a0a-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/619cbf476b8a1b37a54eebf8-image.webp",
+                  "name": "Military tube 군용 주름진 튜브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_corrugated_tube"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "정보 수집 시설",
+        "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d484fdf654e7600691aadf8-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c12613b86f7743bbe2c3f76-image.webp",
+                  "name": "Intelligence 정보 파일 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Intelligence_folder"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fdf654e7600691aadf8-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a124de7ac81993580542-image.webp",
+                  "name": "Topographic survey maps",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Topographic_survey_maps"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fdf654e7600691aadf8-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/574eb85c245977648157eec3-image.webp",
+                  "name": "Factory 지도 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Factory_plan_map"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 3,
+                "id": "5d484fdf654e7600691aadf8-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c12613b86f7743bbe2c3f76-image.webp",
+                  "name": "Intelligence 정보 파일 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Intelligence_folder"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fdf654e7600691aadf8-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c621186f774138d11ea29-image.webp",
+                  "name": "USB 보안 플래시 드라이브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secure_Flash_drive"
+                }
+              },
+              {
+                "count": 7,
+                "id": "5d484fdf654e7600691aadf8-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d484fdf654e7600691aadf8-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a386e86f77429692b27ab-image.webp",
+                  "name": "HDD 손상된 하드 드라이브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Damaged_hard_drive"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 2,
+                "id": "5d484fdf654e7600691aadf8-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c052f6886f7746b1e3db148-image.webp",
+                  "name": "SG-C10 COFDM 군용 무선 신호 송신기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_COFDM_Wireless_Signal_Transmitter"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fdf654e7600691aadf8-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-image.webp",
+                  "name": "VPX 플래시 저장소 모듈 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fdf654e7600691aadf8-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a16d0b9d3c46de5b6e97-image.webp",
+                  "name": "Military 군용 플래시 드라이브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_flash_drive"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fdf654e7600691aadf8-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d0375ff86f774186372f685-image.webp",
+                  "name": "Military cable 군용 케이블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_cable"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fdf654e7600691aadf8-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7c024770ee6f9c6b8b53-image.webp",
+                  "name": "SMT 보안 자기 테이프 카세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secure_magnetic_tape_cassette"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fdf654e7600691aadf8-3-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/6389c7f115805221fb410466-image.webp",
+                  "name": "Far-forward GPS Signal Amplifier Unit",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Far-forward_GPS_Signal_Amplifier_Unit"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "비트코인 채굴 시설",
+        "imageLink": "https://assets.tarkov.dev/station-bitcoin-farm.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 15,
+                "id": "5d494a445b56502f18c98a10-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734779624597737e04bf329-image.webp",
+                  "name": "CPU \bfan 쿨러 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a445b56502f18c98a10-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c2e24597744902c94a1-image.webp",
+                  "name": "PSU 전원공급장치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_supply_unit"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a445b56502f18c98a10-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a445b56502f18c98a10-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-image.webp",
+                  "name": "VPX 플래시 저장소 모듈 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a445b56502f18c98a10-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347cd0245977445a2d6ff1-image.webp",
+                  "name": "T-Shaped plug T자형 멀티탭 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/T-Shaped_plug"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 15,
+                "id": "5d494a445b56502f18c98a10-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734779624597737e04bf329-image.webp",
+                  "name": "CPU \bfan 쿨러 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a445b56502f18c98a10-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c2e24597744902c94a1-image.webp",
+                  "name": "PSU 전원공급장치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_supply_unit"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d494a445b56502f18c98a10-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3b0486f7743954552bdb-image.webp",
+                  "name": "PCB 인쇄 회로 기판 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a445b56502f18c98a10-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a445b56502f18c98a10-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d0378d486f77420421a5ff4-image.webp",
+                  "name": "Military power filter 군용 전력 필터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_power_filter"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 25,
+                "id": "5d494a445b56502f18c98a10-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734779624597737e04bf329-image.webp",
+                  "name": "CPU \bfan 쿨러 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d494a445b56502f18c98a10-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b39a386f774252339976f-image.webp",
+                  "name": "Silicone tube 실리콘 튜브 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicone_tube"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a445b56502f18c98a10-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a445b56502f18c98a10-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b327086f7742525194449-image.webp",
+                  "name": "Pressure gauge 압력게이지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pressure_gauge"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a445b56502f18c98a10-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d03794386f77420415576f5-image.webp",
+                  "name": "Tank battery 6-STEN-140-M 탱크 배터리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6-STEN-140-M_military_battery"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "창고",
+        "imageLink": "https://assets.tarkov.dev/station-stash.png",
+        "levels": [
+          {
+            "itemRequirements": []
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d484fc0654e76006657e0ab-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b317c86f7742523398392-image.webp",
+                  "name": "Hand drill 핸드드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hand_drill"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d484fc0654e76006657e0ab-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d484fc0654e76006657e0ab-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c5bbd86f774785762df04-image.webp",
+                  "name": "WD-40 (100ml)",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WD-40_(100ml)"
+                }
+              },
+              {
+                "count": 2500000,
+                "id": "5d484fc0654e76006657e0ab-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fc0654e76006657e0ab-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-image.webp",
+                  "name": "Nails 못  상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 2,
+                "id": "5d484fc0654e76006657e0ab-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d484fc0654e76006657e0ab-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 8500000,
+                "id": "5d484fc0654e76006657e0ab-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 7,
+                "id": "5d484fc0654e76006657e0ab-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-image.webp",
+                  "name": "Nails 못  상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 200000,
+                "id": "5d484fc0654e76006657e0ab-4-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.webp",
+                  "name": "유로 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Euros"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d484fc0654e76006657e0ab-4-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d484fc0654e76006657e0ab-4-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-image.webp",
+                  "name": "Screw nuts 너트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fc0654e76006657e0ab-4-10",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c35a486f774273531c822-image.webp",
+                  "name": "Shustrilo 슈스트릴로 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fc0654e76006657e0ab-4-11",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-image.webp",
+                  "name": "Ratchet wrench 라쳇 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "서재",
+        "imageLink": "https://assets.tarkov.dev/station-library.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 400000,
+                "id": "5d494a0e5b56502f18c98a02-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a0e5b56502f18c98a02-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/573478bc24597738002c6175-image.webp",
+                  "name": "Horse 말  조각상 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Horse_figurine"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a0e5b56502f18c98a02-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/573474f924597738002c6174-image.webp",
+                  "name": "Chainlet 체인 목걸이 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chainlet"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a0e5b56502f18c98a02-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c639286f774151567fa95-image.webp",
+                  "name": "Tech manual 기술 매뉴얼 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a0e5b56502f18c98a02-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c645c86f77412b01304d9-image.webp",
+                  "name": "Diary 다이어리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Diary"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a0e5b56502f18c98a02-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c651286f7741e566b6461-image.webp",
+                  "name": "Slim diary 얇은 다이어리 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Slim_diary"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a0e5b56502f18c98a02-1-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a09e73af34e73a266d932a-image.webp",
+                  "name": "BakeEzy 요리책 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BakeEzy_cook_book"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "조리 시설",
+        "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 25000,
+                "id": "5d484fd1654e76006732bf2e-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fd1654e76006732bf2e-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd1654e76006732bf2e-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd1654e76006732bf2e-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a09ee4cf4a99369e262453-image.webp",
+                  "name": "Can of white salt",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_white_salt"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 4,
+                "id": "5d484fd1654e76006732bf2e-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c311186f77424d1667482-image.webp",
+                  "name": "Wrench 렌치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wrench"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fd1654e76006732bf2e-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-image.webp",
+                  "name": "Corrugated hose 주름진 호스 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fd1654e76006732bf2e-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59faf98186f774067b6be103-image.webp",
+                  "name": "Alkali 열 교환기용 알칼리 세제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Alkaline_cleaner_for_heat_exchangers"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fd1654e76006732bf2e-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 125000,
+                "id": "5d484fd1654e76006732bf2e-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fd1654e76006732bf2e-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af0484c86f7740f02001f7f-image.webp",
+                  "name": "Majaica coffee 메자이카 커피 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Majaica_coffee_beans"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fd1654e76006732bf2e-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35abd86f7741778269d82-image.webp",
+                  "name": "Sodium 탄산 수소 나트륨 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_sodium_bicarbonate"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fd1654e76006732bf2e-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af00086f7746d3f3c33f7-image.webp",
+                  "name": "Smoked Chimney 배수관 세정제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Smoked_Chimney_drain_cleaner"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "조명 시설",
+        "imageLink": "https://assets.tarkov.dev/station-illumination.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 10000,
+                "id": "5d494a205b56502f18c98a06-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a205b56502f18c98a06-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/56742c284bdc2d98058b456d-image.webp",
+                  "name": "Crickent 크리켄트 라이터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crickent_lighter"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 14,
+                "id": "5d494a205b56502f18c98a06-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b392c86f77425243e98fe-image.webp",
+                  "name": "Light bulb 전구 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Light_bulb"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a205b56502f18c98a06-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 50000,
+                "id": "5d494a205b56502f18c98a06-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 7,
+                "id": "5d494a205b56502f18c98a06-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-image.webp",
+                  "name": "Capacitors 축전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
+                }
+              },
+              {
+                "count": 6,
+                "id": "5d494a205b56502f18c98a06-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 12,
+                "id": "5d494a205b56502f18c98a06-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "발전기",
+        "imageLink": "https://assets.tarkov.dev/station-generator.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 100000,
+                "id": "5d3b396e33c48f02b81cd9f3-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d3b396e33c48f02b81cd9f3-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3c0a86f774385a33c450-image.webp",
+                  "name": "Spark plug 점화 플러그 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spark_plug"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 5,
+                "id": "5d3b396e33c48f02b81cd9f3-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d3b396e33c48f02b81cd9f3-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d3b396e33c48f02b81cd9f3-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d3b396e33c48f02b81cd9f3-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/619cbfeb6b8a1b37a54eebfa-image.webp",
+                  "name": "Bulbex 케이블 커터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bulbex_cable_cutter"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 6,
+                "id": "5d3b396e33c48f02b81cd9f3-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d3b396e33c48f02b81cd9f3-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d3b396e33c48f02b81cd9f3-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3c0a86f774385a33c450-image.webp",
+                  "name": "Spark plug 점화 플러그 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spark_plug"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d3b396e33c48f02b81cd9f3-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c2e24597744902c94a1-image.webp",
+                  "name": "PSU 전원공급장치 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_supply_unit"
+                }
+              },
+              {
+                "count": 7,
+                "id": "5d3b396e33c48f02b81cd9f3-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "의료 시설",
+        "imageLink": "https://assets.tarkov.dev/station-medstation.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 50000,
+                "id": "5d484fcd654e7668ec2ec322-1-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fcd654e7668ec2ec322-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-image.webp",
+                  "name": "Disposable syringe 일회용 주사기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fcd654e7668ec2ec322-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b3a5d86f774252167ba22-image.webp",
+                  "name": "Pile of meds 약더미 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fcd654e7668ec2ec322-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/544fb25a4bdc2dfb738b4567-image.webp",
+                  "name": "Aseptic bandage 무균 붕대 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aseptic_bandage"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fcd654e7668ec2ec322-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a043cf4a99369e2624a5-image.webp",
+                  "name": "OLOLO Multivitamins 종합 비타민 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_OLOLO_Multivitamins"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 150000,
+                "id": "5d484fcd654e7668ec2ec322-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d484fcd654e7668ec2ec322-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5b4335ba86f7744d2837a264-image.webp",
+                  "name": "Bloodset 의료 채혈세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_bloodset"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fcd654e7668ec2ec322-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3606886f77417674759a5-image.webp",
+                  "name": "NaCl 생리식염수 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_saline_solution"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fcd654e7668ec2ec322-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e831507ea0a7c419c2f9bd9-image.webp",
+                  "name": "Esmarch 에스마르흐 지혈대 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Esmarch_tourniquet"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fcd654e7668ec2ec322-2-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/619cc01e0a7c3a1a2731940c-image.webp",
+                  "name": "Medical tools 의료 도구 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_tools"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 500000,
+                "id": "5d484fcd654e7668ec2ec322-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              },
+              {
+                "count": 4,
+                "id": "5d484fcd654e7668ec2ec322-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3606886f77417674759a5-image.webp",
+                  "name": "NaCl 생리식염수 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_saline_solution"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fcd654e7668ec2ec322-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c0530ee86f774697952d952-image.webp",
+                  "name": "LEDX 피부 트랜스일루미네이터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LEDX_Skin_Transilluminator"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fcd654e7668ec2ec322-3-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af0534a86f7743b6f354284-image.webp",
+                  "name": "Ophthalmoscope 검안경 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ophthalmoscope"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "진열장",
+        "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b31ce86f7742523398394-image.webp",
+                  "name": "Round pliers 원형 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a295b56502f18c98a08-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af47786f7746d404f3aaa-image.webp",
+                  "name": "Fleece 플리스 원단 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fleece_fabric"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-1-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3658a86f7741776641ac4-image.webp",
+                  "name": "Cat 고양이 조각상 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cat_figurine"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a295b56502f18c98a08-1-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b392c86f77425243e98fe-image.webp",
+                  "name": "Light bulb 전구 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Light_bulb"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a295b56502f18c98a08-1-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-image.webp",
+                  "name": "Nails 못  상자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a295b56502f18c98a08-1-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5734795124597738002c6176-image.webp",
+                  "name": "Insulating tape 절연 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-2-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c639286f774151567fa95-image.webp",
+                  "name": "Tech manual 기술 매뉴얼 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-2-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-image.webp",
+                  "name": "Pliers Elite 엘리트 플라이어 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5bc9bc53d4351e00367fbcee-image.webp",
+                  "name": "Golden rooster 황금 수탉 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine"
+                }
+              },
+              {
+                "count": 10,
+                "id": "5d494a295b56502f18c98a08-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 6,
+                "id": "5d494a295b56502f18c98a08-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a295b56502f18c98a08-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-image.webp",
+                  "name": "Duct tape 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a295b56502f18c98a08-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c346786f77423e50ed342-image.webp",
+                  "name": "Xenomorph 제노모프 실링 폼  ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Xenomorph_sealing_foam"
+                }
+              },
+              {
+                "count": 2,
+                "id": "5d494a295b56502f18c98a08-2-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af22086f7746d3f3c33fa-image.webp",
+                  "name": "Poxeram 냉간 용접 접착제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tube_of_Poxeram_cold_welding"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a0bb621468534a797ad5-image.webp",
+                  "name": "Set of files \"Master\"",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d494a295b56502f18c98a08-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e3639286f7741777737013-image.webp",
+                  "name": "Lion 청동 사자상 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bronze_lion_figurine"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d494a295b56502f18c98a08-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a295b56502f18c98a08-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-image.webp",
+                  "name": "KEKTAPE 덕트 테이프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d494a295b56502f18c98a08-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347cd0245977445a2d6ff1-image.webp",
+                  "name": "T-Shaped plug T자형 멀티탭 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/T-Shaped_plug"
+                }
+              },
+              {
+                "count": 15,
+                "id": "5d494a295b56502f18c98a08-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d494a295b56502f18c98a08-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "사격장",
+        "imageLink": "https://assets.tarkov.dev/station-shooting-range.png",
+        "levels": [
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-1-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-image.webp",
+                  "name": "Screw nuts 너트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-1-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-image.webp",
+                  "name": "Bolts 볼트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-1-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 20000,
+                "id": "5d484fe3654e76006657e0ac-1-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-image.webp",
+                  "name": "루블 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-2-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-image.webp",
+                  "name": "Toolset 공구세트 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fe3654e76006657e0ac-2-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-2-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c2c9c86f774245b1f03f2-image.webp",
+                  "name": "Measuring tape 건축용 줄자 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Construction_measuring_tape"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-2-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-2-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35ef086f7741777737012-image.webp",
+                  "name": "Screws 나사 한 봉지 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_screws"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-2-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5e2af22086f7746d3f3c33fa-image.webp",
+                  "name": "Poxeram 냉간 용접 접착제 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tube_of_Poxeram_cold_welding"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-2-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-image.webp",
+                  "name": "Electric motor 전동 모터 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                }
+              },
+              {
+                "count": 6,
+                "id": "5d484fe3654e76006657e0ac-2-9",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3cd386f77436f20848cb-image.webp",
+                  "name": "ES Lamp 에너지 절약 램프 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-2-10",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5b4391a586f7745321235ab2-image.webp",
+                  "name": "WI-FI 카메라 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WI-FI_Camera"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-2-11",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e35de086f7741778269d84-image.webp",
+                  "name": "Electric drill 전동 드릴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
+                }
+              }
+            ]
+          },
+          {
+            "itemRequirements": [
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-3-0",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/62a0a0bb621468534a797ad5-image.webp",
+                  "name": "Set of files \"Master\"",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fe3654e76006657e0ac-3-1",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-image.webp",
+                  "name": "Wires 전선 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-3-2",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590a3b0486f7743954552bdb-image.webp",
+                  "name": "PCB 인쇄 회로 기판 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fe3654e76006657e0ac-3-3",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-image.webp",
+                  "name": "Metal spare parts 금속 예비 부품 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fe3654e76006657e0ac-3-4",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-image.webp",
+                  "name": "Capacitors 축전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
+                }
+              },
+              {
+                "count": 3,
+                "id": "5d484fe3654e76006657e0ac-3-5",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/5d1b313086f77425227d1678-image.webp",
+                  "name": "Relay 위상 제어 계전기 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
+                }
+              },
+              {
+                "count": 5,
+                "id": "5d484fe3654e76006657e0ac-3-6",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-image.webp",
+                  "name": "Power cord 파워코드 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-3-7",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/544fb5454bdc2df8738b456a-image.webp",
+                  "name": "Leatherman 멀티툴 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Leatherman_Multitool"
+                }
+              },
+              {
+                "count": 1,
+                "id": "5d484fe3654e76006657e0ac-3-8",
+                "item": {
+                  "imageLink": "https://assets.tarkov.dev/590c639286f774151567fa95-image.webp",
+                  "name": "Tech manual 기술 매뉴얼 ",
+                  "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

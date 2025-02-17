@@ -1252,15 +1252,6 @@
         "imageLink": "https://assets.tarkov.dev/station-defective-wall.png",
         "levels": [
           {
-            "itemRequirements": []
-          },
-          {
-            "itemRequirements": []
-          },
-          {
-            "itemRequirements": []
-          },
-          {
             "itemRequirements": [
               {
                 "count": 1,

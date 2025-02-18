@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import {useEffect, useState} from 'react'
 
 import './App.css'
 import Navbar from "./components/NavBar.tsx";
@@ -33,7 +33,7 @@ const removePrefixAndSuffix = (imageUrl: string) => {
 function App() {
     const {language, gameMode} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
-    const {items, addItem, updateItemCount} = useItemStore();
+    const {items, addItem, updateItemCount, updateItemName} = useItemStore();
 
     useEffect(() => {
         if (language) {
@@ -81,7 +81,22 @@ function App() {
             }
         }
 
+    }, []);
+
+    useEffect(() => {
+        for (let item of lang.data.hideoutStations) {
+            for (let level of item.levels) {
+                for (let i of level.itemRequirements) {
+                    const name = i.item.name;
+                    const image = i.item.imageLink;
+                    const id = removePrefixAndSuffix(image);
+                    updateItemName(id, name)
+                }
+            }
+        }
+
     }, [lang]);
+
 
     return (
         <>
@@ -94,14 +109,15 @@ function App() {
 
                 <div className={"flex flex-col p-3"}>
                     <div className="flex items-center outline outline-1 bg-gray-300 text-2xl p-3">
-                        <p>남은 아이템 목록</p>
+                        <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
                     </div>
 
                     <div className={"flex flex-col"}>
 
                         {
                             Object.entries(items).map(([key, item]) => (
-                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki} name={item.name}/>
+                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
+                                           name={item.name}/>
                             ))
                         }
 
@@ -115,8 +131,6 @@ function App() {
         </>
     )
 }
-
-
 
 
 export default App

@@ -2,5 +2,6 @@
   "title" : "타르코프 하이드아웃 계산기",
   "config" : "설정",
   "language" : "한국어",
-  "mode" : "Game Mode"
+  "mode" : "Game Mode",
+  "remain" : "남은 아이템 목록"
 }

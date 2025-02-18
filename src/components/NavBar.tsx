@@ -7,12 +7,12 @@ import useConfigStore from "../stores/configStore.ts";
 
 export default function Navbar() {
 
-    const {language, changeLanguage, gameMode, changeGameMode,choice,changeChoice} = useConfigStore();
+    const {language, changeLanguage,choice,changeChoice} = useConfigStore();
 
 
     const [pack, setPack] = useState(kor);
 
-    const [show, setShow] = useState(true);
+    const [show] = useState(true);
 
     useEffect(() => {
 

@@ -1,25 +1,82 @@
 import useLanguageStore from "../stores/languageStore.ts";
+import {useEffect, useState} from "react";
+import kor from "../assets/generic-kor.json"
+import eng from "../assets/generic-eng.json"
+import {IoSettings} from "react-icons/io5";
+import useGameModeState from "../stores/gameModeStore.ts";
 
 export default function Navbar() {
 
-    const {language,changeLanguage} = useLanguageStore();
+    const {language, changeLanguage} = useLanguageStore();
+
+    const {gameMode, changeGameMode} = useGameModeState();
+
+    const [pack, setPack] = useState(kor);
+
+    const [show, setShow] = useState(true);
+
+    useEffect(() => {
+
+        if (language) {
+            setPack(kor)
+            return
+        }
+        setPack(eng)
+    }, [language])
+
     return (
-        <nav className="max-w-7xl bg-gray-600 p-4 text-white flex">
-            <div>{language ? "타르코프 하이드아웃 계산기" : "Tarkov Hideout Calculator"}</div>
-            <div className="ml-auto">
-                <label
-                    className="inline-flex items-center me-5 cursor-pointer"
-                    aria-label="Toggle Language">
-                    <input
-                        type="checkbox"
-                        className="sr-only peer"
-                        onChange={changeLanguage}
-                        checked={language}
-                    />
-                    <div className="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-green-300 dark:peer-focus:ring-green-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-600 dark:peer-checked:bg-green-600"></div>
-                    <span className="ms-3 text-sm font-medium">{language ? "한국어" : "English"}</span>
-                </label>
+
+        <nav className="max-w-7xl bg-gray-600 p-4 text-white flex flex-col">
+            <div className={"flex"}>
+                <div>{pack.title}</div>
+                <div className="ml-auto">
+                    <div className={"flex items-center"}>
+                        {pack.config}
+                        <IoSettings size={20}/>
+                    </div>
+                </div>
+
+
             </div>
+            {
+                show && <div className={"flex mt-2"}>
+                    <div className={"flex gap-2"}>
+                        <button
+                            className={`px-1 rounded ${gameMode ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
+                            onClick={() => {
+                                changeGameMode(true)
+                            }
+                            }>PVP
+                        </button>
+                        <button
+                            className={`px-1 rounded ${!gameMode ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
+                            onClick={() => {
+                                changeGameMode(false)
+                            }
+                            }>PVE
+                        </button>
+                    </div>
+                    <div className={"ml-auto flex gap-2"}>
+                        <button
+                            className={`px-1 rounded ${language ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
+                            onClick={() => {
+                                changeLanguage(true)
+                            }
+                            }>한국어
+                        </button>
+                        <button
+                            className={`px-1 rounded ${!language ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
+                            onClick={() => {
+                                changeLanguage(false)
+                            }
+                            }>eng
+                        </button>
+                    </div>
+
+
+                </div>
+            }
+
         </nav>
     );
 }

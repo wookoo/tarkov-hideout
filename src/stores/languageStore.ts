@@ -3,12 +3,12 @@ import {create} from "zustand/react";
 
 interface LanguageState {
     language: boolean;
-    changeLanguage : () => void;
+    changeLanguage : (language: boolean) => void;
 }
 
 const useLanguageStore = create<LanguageState>((set) => ({
     language: true,
-    changeLanguage: () => set((state) => ({ language : !state.language })),
+    changeLanguage: (language : boolean) => set(() => ({ language : language })),
 }))
 
 export default  useLanguageStore;

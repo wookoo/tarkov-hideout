@@ -6,9 +6,9 @@ interface GameModeState {
     changeGameMode: (mode: boolean) => void;
 }
 
-const useGameModeState = create<GameModeState>((set) => ({
+const useGameModeStore = create<GameModeState>((set) => ({
     gameMode: true,
     changeGameMode: (mode: boolean) => set(() => ({gameMode: mode})),
 }))
 
-export default useGameModeState;
+export default useGameModeStore;

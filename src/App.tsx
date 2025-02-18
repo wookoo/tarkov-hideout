@@ -3,22 +3,43 @@ import {useEffect, useState} from 'react'
 import './App.css'
 import Navbar from "./components/NavBar.tsx";
 import useLanguageStore from "./stores/languageStore.ts";
-
-import korean from "./assets/pve-kor.json"
-import english from "./assets/pve-eng.json"
+import useGameModeStore from "./stores/gameModeStore.ts";
+import pveKorean from "./assets/pve-kor.json"
+import pveEnglish from "./assets/pve-eng.json"
+import pvpKorean from "./assets/pvp-kor.json"
+import pvpEnglish from "./assets/pvp-eng.json"
 import Section from "./components/Section.tsx";
 import {BrowserRouter} from "react-router-dom";
 
 function App() {
     const {language} = useLanguageStore();
-    const [lang, setLang] = useState(korean);
+
+    const {gameMode} = useGameModeStore();
+
+
+    const [lang, setLang] = useState(pveKorean);
     useEffect(() => {
         if (language) {
-            setLang(korean);
-            return;
+            if (gameMode) {
+                setLang(pvpKorean);
+                return;
+            }
+            else{
+                setLang(pveKorean)
+                return;
+            }
         }
-        setLang(english);
-    }, [language])
+        else{
+            if(gameMode){
+                setLang(pvpEnglish);
+                return;
+            }
+            else{
+                setLang(pveEnglish);
+                return;
+            }
+        }
+    }, [language,gameMode])
 
     return (
         <>

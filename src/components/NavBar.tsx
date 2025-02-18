@@ -3,13 +3,14 @@ import {useEffect, useState} from "react";
 import kor from "../assets/generic-kor.json"
 import eng from "../assets/generic-eng.json"
 import {IoSettings} from "react-icons/io5";
-import useGameModeState from "../stores/gameModeStore.ts";
+import useGameModeStore from "../stores/gameModeStore.ts";
+import NavButton from "./NavButton.tsx";
 
 export default function Navbar() {
 
     const {language, changeLanguage} = useLanguageStore();
 
-    const {gameMode, changeGameMode} = useGameModeState();
+    const {gameMode, changeGameMode} = useGameModeStore();
 
     const [pack, setPack] = useState(kor);
 
@@ -35,45 +36,26 @@ export default function Navbar() {
                         <IoSettings size={20}/>
                     </div>
                 </div>
-
-
             </div>
             {
                 show && <div className={"flex mt-2"}>
                     <div className={"flex gap-2"}>
-                        <button
-                            className={`px-1 rounded ${gameMode ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
-                            onClick={() => {
-                                changeGameMode(true)
-                            }
-                            }>PVP
-                        </button>
-                        <button
-                            className={`px-1 rounded ${!gameMode ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
-                            onClick={() => {
-                                changeGameMode(false)
-                            }
-                            }>PVE
-                        </button>
+                        <NavButton onClick={() => {
+                            changeGameMode(true)
+                        }} flag={gameMode} text={"PVP"}/>
+                        <NavButton onClick={() => {
+                            changeGameMode(false)
+                        }} flag={!gameMode} text={"PVE"}/>
+
                     </div>
                     <div className={"ml-auto flex gap-2"}>
-                        <button
-                            className={`px-1 rounded ${language ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
-                            onClick={() => {
-                                changeLanguage(true)
-                            }
-                            }>한국어
-                        </button>
-                        <button
-                            className={`px-1 rounded ${!language ? "bg-green-500 text-white" : "bg-gray-200 text-black"}`}
-                            onClick={() => {
-                                changeLanguage(false)
-                            }
-                            }>eng
-                        </button>
+                        <NavButton onClick={() => {
+                            changeLanguage(true)
+                        }} flag={language} text={"한국어"}/>
+                        <NavButton onClick={() => {
+                            changeLanguage(false)
+                        }} flag={!language} text={"eng"}/>
                     </div>
-
-
                 </div>
             }
 

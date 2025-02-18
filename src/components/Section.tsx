@@ -9,7 +9,7 @@ interface SectionProps {
 
 const Section = ({name, image, items}: SectionProps) => {
 
-    const [level, setLevel] = useState(-1); // 초기 level은 id로 설정
+    const [level, setLevel] = useState(0); // 초기 level은 id로 설정
 
 
     // const [show, setShow] = useState(true);
@@ -44,18 +44,11 @@ const Section = ({name, image, items}: SectionProps) => {
 
     return (
         <div className={"flex flex-col p-3"}>
-            <div className="flex items-center outline outline-1 bg-gray-300" >
+            <div className="flex items-center outline outline-1 bg-gray-300">
                 <img src={image} alt={name} className="mr-4"/>
                 <p>{name}</p>
 
                 <div className="ml-auto flex">
-                    <button
-                        className={`mr-2 p-2 border ${-1 === level ? "bg-green-500 text-white" : "bg-gray-200"}`}
-                        onClick={() => setLevel(-1)}
-                    >
-                        A
-                    </button>
-
                     {Array.from({length: items.length + 1}, (_, index) => (
                         <button
                             key={index}

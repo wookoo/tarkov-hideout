@@ -1,16 +1,14 @@
-import useLanguageStore from "../stores/languageStore.ts";
 import {useEffect, useState} from "react";
 import kor from "../assets/generic-kor.json"
 import eng from "../assets/generic-eng.json"
 import {IoSettings} from "react-icons/io5";
-import useGameModeStore from "../stores/gameModeStore.ts";
 import NavButton from "./NavButton.tsx";
+import useConfigStore from "../stores/configStore.ts";
 
 export default function Navbar() {
 
-    const {language, changeLanguage} = useLanguageStore();
+    const {language, changeLanguage, gameMode, changeGameMode,choice,changeChoice} = useConfigStore();
 
-    const {gameMode, changeGameMode} = useGameModeStore();
 
     const [pack, setPack] = useState(kor);
 
@@ -39,15 +37,26 @@ export default function Navbar() {
             </div>
             {
                 show && <div className={"flex mt-2"}>
+
                     <div className={"flex gap-2"}>
                         <NavButton onClick={() => {
-                            changeGameMode(true)
-                        }} flag={gameMode} text={"PVP"}/>
+                            changeChoice(true)
+                        }} flag={choice} text={"ONE"}/>
                         <NavButton onClick={() => {
-                            changeGameMode(false)
-                        }} flag={!gameMode} text={"PVE"}/>
+                            changeChoice(false)
+                        }} flag={!choice} text={"ALL"}/>
 
                     </div>
+                    {/*<div className={"flex gap-2"}>*/}
+                    {/*    <NavButton onClick={() => {*/}
+                    {/*        changeGameMode(true)*/}
+                    {/*    }} flag={gameMode} text={"PVP"}/>*/}
+                    {/*    <NavButton onClick={() => {*/}
+                    {/*        changeGameMode(false)*/}
+                    {/*    }} flag={!gameMode} text={"PVE"}/>*/}
+
+                    {/*</div>*/}
+                    {/*PVP PVE 재료가 바뀌면 주석 해제*/}
                     <div className={"ml-auto flex gap-2"}>
                         <NavButton onClick={() => {
                             changeLanguage(true)

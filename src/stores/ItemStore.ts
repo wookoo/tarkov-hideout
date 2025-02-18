@@ -1,0 +1,49 @@
+// 아이템의 타입 정의
+import {create} from "zustand/react";
+
+interface ItemState {
+    count: number;
+    image: string;
+    name: string;
+    wiki: string;
+}
+
+
+interface StoreState {
+    items: Record<string, ItemState>;
+    addItem: (key: string, item: ItemState) => void;
+    updateItemCount: (key: string, count: number) => void;
+    updateItemName: (key: string, name: string) => void;
+}
+
+
+const useItemStore = create<StoreState>((set) => ({
+    items: {},
+
+    addItem: (key, item) => set((state) => ({
+        items: {
+            ...state.items,
+            [key]: item,
+        },
+    })),
+
+    updateItemCount: (key: string, count: number) => set((state) => ({
+        items: {
+            ...state.items,
+            [key]: {
+                ...state.items[key],
+                count: state.items[key].count + count, // 기존 count에 더하기
+            },
+        },
+    })),
+
+
+    updateItemName: (key, name) => set((state) => ({
+        items: {
+            ...state.items,
+            [key]: {...state.items[key], name},
+        },
+    })),
+}));
+
+export default useItemStore;

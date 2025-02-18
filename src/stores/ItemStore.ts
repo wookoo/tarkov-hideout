@@ -11,15 +11,21 @@ interface ItemState {
 
 interface StoreState {
     items: Record<string, ItemState>;
+    isRender: boolean;
     addItem: (key: string, item: ItemState) => void;
-    updateItemCount: (key: string, count: number) => void;
+    increaseItemCount: (key: string, count: number) => void;
+    decreaseItemCount: (key: string, count: number) => void;
     updateItemName: (key: string, name: string) => void;
+    render: () => void;
+
 }
 
 
 const useItemStore = create<StoreState>((set) => ({
     items: {},
 
+    isRender: false,
+    render: () => set(() => ({isRender: true})),
     addItem: (key, item) => set((state) => ({
         items: {
             ...state.items,
@@ -27,12 +33,22 @@ const useItemStore = create<StoreState>((set) => ({
         },
     })),
 
-    updateItemCount: (key: string, count: number) => set((state) => ({
+    increaseItemCount: (key: string, count: number) => set((state) => ({
         items: {
             ...state.items,
             [key]: {
                 ...state.items[key],
                 count: state.items[key].count + count, // 기존 count에 더하기
+            },
+        },
+    })),
+
+    decreaseItemCount: (key: string, count: number) => set((state) => ({
+        items: {
+            ...state.items,
+            [key]: {
+                ...state.items[key],
+                count: state.items[key].count - count, // 기존 count에 더하기
             },
         },
     })),

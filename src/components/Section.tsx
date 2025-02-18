@@ -1,5 +1,7 @@
-import {useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import ItemAsset from "./ItemAsset.tsx";
+import removePrefixAndSuffix from "../utils/removePrefixAndSuffix.ts";
+import useItemStore from "../stores/ItemStore.ts";
 
 interface SectionProps {
     name: string,
@@ -9,26 +11,82 @@ interface SectionProps {
 
 const Section = ({name, image, items}: SectionProps) => {
 
-    const [level, setLevel] = useState(0); // 초기 level은 id로 설정
-
-
+    const [level, setLevel] = useState(0);
     // const [show, setShow] = useState(true);
+    const {increaseItemCount, isRender, decreaseItemCount} = useItemStore();
     const allItems: { [key: string]: any } = {};
     for (let item of items) {
         for (let i of item.itemRequirements) {
-
-            if (allItems[i.item.name] === undefined) {
-                allItems[i.item.name] = {
-                    wiki: i.item.wikiLink,
-                    count: i.count,
-                    name: i.item.name,
-                    image: i.item.imageLink
-                }
+            const name = i.item.name;
+            const wiki = i.item.wikiLink;
+            const count = i.count;
+            const image = i.item.imageLink;
+            const id = removePrefixAndSuffix(image);
+            const data = {
+                name: name,
+                wiki: wiki,
+                count: count,
+                image: image,
+            }
+            if (allItems[id] === undefined) {
+                allItems[id] = data
             } else {
-                allItems[i.item.name] = {...allItems[i.item.name], count: allItems[i.item.name].count + i.count}
+                allItems[id] = {...allItems[id], count: count + allItems[id].count}
             }
         }
     }
+
+    const prevLevelRef = useRef<number>(0);
+
+    useEffect(() => {
+
+        if (isRender) {
+
+            for (const key in allItems) {
+                const i = allItems[key];
+                // console.log(i)
+                increaseItemCount(key,i.count)
+            }
+        }
+
+    }, [isRender]);
+
+    useEffect(() => {
+
+
+
+        if (isRender) {
+
+            const prevLevel = prevLevelRef.current;
+            if(prevLevel < level){
+                for (let i = prevLevel; i < level; i++) {
+                    for (let j of items[i].itemRequirements) {
+                        const count = j.count;
+                        const image = j.item.imageLink;
+                        const id = removePrefixAndSuffix(image);
+                        decreaseItemCount(id, count); // 해당 아이템 수량 증가
+                    }
+                }
+
+            }
+            else{
+                for (let i = level; i < prevLevel; i++) {
+                    for (let j of items[i].itemRequirements) {
+                        const count = j.count;
+                        const image = j.item.imageLink;
+                        const id = removePrefixAndSuffix(image);
+                        increaseItemCount(id, count); // 해당 아이템 수량 증가
+                    }
+                }
+            }
+            // 현재 레벨 이상을 더하기
+
+        }
+
+        prevLevelRef.current = level;
+
+
+    }, [level, isRender]);
 
     // if (!show) {
     //     return (
@@ -61,16 +119,7 @@ const Section = ({name, image, items}: SectionProps) => {
                 </div>
 
             </div>
-            {/*-1 이면 모두 보여주기*/}
-            {
-                level === -1 && Object.keys(allItems).map((key) => {
-                    const item = allItems[key];
-                    return (
-                        <ItemAsset count={item.count} name={item.name} image={item.image} wiki={item.wiki}/>
-                    );
-                })
 
-            }
             {
                 items[level] && <div className={"flex flex-col"}>
                     {

@@ -12,28 +12,13 @@ import {BrowserRouter} from "react-router-dom";
 import useConfigStore from "./stores/configStore.ts";
 import useItemStore from "./stores/ItemStore.ts";
 import ItemAsset from "./components/ItemAsset.tsx";
-
-
-const removePrefixAndSuffix = (imageUrl: string) => {
-    const prefix = 'https://assets.tarkov.dev/';
-    const suffix = '-image.webp';
-
-    // prefix 제거
-    let result = imageUrl.startsWith(prefix) ? imageUrl.substring(prefix.length) : imageUrl;
-
-    // suffix 제거
-    if (result.endsWith(suffix)) {
-        result = result.substring(0, result.length - suffix.length);
-    }
-
-    return result;
-}
+import removePrefixAndSuffix from "./utils/removePrefixAndSuffix.ts";
 
 
 function App() {
     const {language, gameMode} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
-    const {items, addItem, updateItemCount, updateItemName} = useItemStore();
+    const {items, addItem, updateItemName,render} = useItemStore();
 
     useEffect(() => {
         if (language) {
@@ -61,25 +46,24 @@ function App() {
                 for (let i of level.itemRequirements) {
                     const name = i.item.name;
                     const wiki = i.item.wikiLink;
-                    const count = i.count;
                     const image = i.item.imageLink;
                     const id = removePrefixAndSuffix(image);
 
                     const data = {
                         name: name,
                         wiki: wiki,
-                        count: count,
+                        count: 0,
                         image: image,
                     }
 
                     if (items[id] === undefined) {
                         addItem(id, data);
-                    } else {
-                        updateItemCount(id, count); // count를 더하는 로직
                     }
                 }
             }
         }
+
+        render();
 
     }, []);
 
@@ -116,6 +100,7 @@ function App() {
 
                         {
                             Object.entries(items).map(([key, item]) => (
+                                item.count > 0 &&
                                 <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
                                            name={item.name}/>
                             ))

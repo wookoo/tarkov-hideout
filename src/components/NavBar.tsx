@@ -7,7 +7,7 @@ import useConfigStore from "../stores/configStore.ts";
 
 export default function Navbar() {
 
-    const {language, changeLanguage,choice,changeChoice} = useConfigStore();
+    const {language, changeLanguage} = useConfigStore();
 
 
     const [pack, setPack] = useState(kor);
@@ -40,11 +40,11 @@ export default function Navbar() {
 
                     <div className={"flex gap-2"}>
                         <NavButton onClick={() => {
-                            changeChoice(true)
-                        }} flag={choice} text={"ONE"}/>
+                            // changeChoice(true)
+                        }} flag={false} text={"ONE"}/>
                         <NavButton onClick={() => {
-                            changeChoice(false)
-                        }} flag={!choice} text={"ALL"}/>
+                            // changeChoice(false)
+                        }} flag={false} text={"ALL"}/>
 
                     </div>
                     {/*<div className={"flex gap-2"}>*/}

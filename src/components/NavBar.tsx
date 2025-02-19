@@ -67,6 +67,12 @@ export default function Navbar() {
                     </div>
                 </div>
             }
+            <div className={"mt-1 text-sm flex"}>
+                Updated : 2025.02.20
+                <div className={"ml-auto"}>
+                    Developer Tarkov NickName : wookoo
+                </div>
+            </div>
 
         </nav>
     );

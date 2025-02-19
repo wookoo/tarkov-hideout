@@ -1,7 +1,8 @@
 import {useEffect, useRef, useState} from "react";
 import ItemAsset from "./ItemAsset.tsx";
-import removePrefixAndSuffix from "../utils/removePrefixAndSuffix.ts";
 import useItemStore from "../stores/ItemStore.ts";
+import {removePrefixAndSuffix, getStationPrimaryByImageURL} from "../utils/removePrefixAndSuffix.ts";
+import useLevelStore from "../stores/levelStore.ts";
 
 interface SectionProps {
     name: string,
@@ -9,11 +10,17 @@ interface SectionProps {
     items: any[]
 }
 
+
 const Section = ({name, image, items}: SectionProps) => {
 
     const [level, setLevel] = useState(0);
     // const [show, setShow] = useState(true);
     const {increaseItemCount, isRender, decreaseItemCount} = useItemStore();
+
+    const stationId = getStationPrimaryByImageURL(image);
+
+
+    const {levels, setLevel: setGlobalLevel} = useLevelStore();
     const allItems: { [key: string]: any } = {};
     for (let item of items) {
         for (let i of item.itemRequirements) {
@@ -45,8 +52,16 @@ const Section = ({name, image, items}: SectionProps) => {
             for (const key in allItems) {
                 const i = allItems[key];
                 // console.log(i)
-                increaseItemCount(key,i.count)
+                increaseItemCount(key, i.count)
             }
+
+            if (levels[stationId] === undefined) {
+                setGlobalLevel(stationId, 0);
+            }
+            else{
+                setLevel(levels[stationId])
+            }
+
         }
 
     }, [isRender]);
@@ -54,11 +69,13 @@ const Section = ({name, image, items}: SectionProps) => {
     useEffect(() => {
 
 
-
         if (isRender) {
 
+
+            setGlobalLevel(stationId, level);
+
             const prevLevel = prevLevelRef.current;
-            if(prevLevel < level){
+            if (prevLevel < level) {
                 for (let i = prevLevel; i < level; i++) {
                     for (let j of items[i].itemRequirements) {
                         const count = j.count;
@@ -68,8 +85,7 @@ const Section = ({name, image, items}: SectionProps) => {
                     }
                 }
 
-            }
-            else{
+            } else {
                 for (let i = level; i < prevLevel; i++) {
                     for (let j of items[i].itemRequirements) {
                         const count = j.count;
@@ -124,8 +140,8 @@ const Section = ({name, image, items}: SectionProps) => {
                 items[level] && <div className={"flex flex-col"}>
                     {
                         items[level].itemRequirements.map(
-                            (i: any) => {
-                                return <ItemAsset count={i.count} name={i.item.name} image={i.item.imageLink}
+                            (i: any,index:any) => {
+                                return <ItemAsset key={index} count={i.count} name={i.item.name} image={i.item.imageLink}
                                                   wiki={i.item.wikiLink}/>
                             }
                         )

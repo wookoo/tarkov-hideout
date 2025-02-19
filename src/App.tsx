@@ -8,17 +8,22 @@ import pveEnglish from "./assets/pve-eng.json"
 import pvpKorean from "./assets/pvp-kor.json"
 import pvpEnglish from "./assets/pvp-eng.json"
 import Section from "./components/Section.tsx";
-import {BrowserRouter} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import useConfigStore from "./stores/configStore.ts";
 import useItemStore from "./stores/ItemStore.ts";
 import ItemAsset from "./components/ItemAsset.tsx";
-import removePrefixAndSuffix from "./utils/removePrefixAndSuffix.ts";
+import {removePrefixAndSuffix} from "./utils/removePrefixAndSuffix.ts";
+import useLevelStore from "./stores/levelStore.ts";
 
 
 function App() {
     const {language, gameMode} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
-    const {items, addItem, updateItemName,render} = useItemStore();
+    const {items, addItem, updateItemName, render} = useItemStore();
+
+    const {levels, setLevel} = useLevelStore();
+
+    const location = useLocation();
 
     useEffect(() => {
         if (language) {
@@ -41,9 +46,9 @@ function App() {
     }, [language, gameMode])
 
     useEffect(() => {
-        for (let item of lang.data.hideoutStations) {
-            for (let level of item.levels) {
-                for (let i of level.itemRequirements) {
+        for (const item of lang.data.hideoutStations) {
+            for (const level of item.levels) {
+                for (const i of level.itemRequirements) {
                     const name = i.item.name;
                     const wiki = i.item.wikiLink;
                     const image = i.item.imageLink;
@@ -63,14 +68,36 @@ function App() {
             }
         }
 
+        const params = new URLSearchParams(location.search);
+        const levelsParam = params.get('levels');
+
+        if(levelsParam){
+            const levelString = atob(levelsParam);
+            const parsedLevel = JSON.parse(levelString)
+
+            for (const key of Object.keys(parsedLevel)) {
+                if (isNaN(+parsedLevel[key] )) {
+
+                    setLevel(key, 0)
+                }
+                else{
+                    setLevel(key,parsedLevel[key])
+                }
+            }
+        }
         render();
 
     }, []);
 
     useEffect(() => {
-        for (let item of lang.data.hideoutStations) {
-            for (let level of item.levels) {
-                for (let i of level.itemRequirements) {
+        const save = btoa(JSON.stringify(levels))
+        window.history.pushState({}, '', '?levels=' + save)
+    }, [levels]);
+
+    useEffect(() => {
+        for (const item of lang.data.hideoutStations) {
+            for (const level of item.levels) {
+                for (const i of level.itemRequirements) {
                     const name = i.item.name;
                     const image = i.item.imageLink;
                     const id = removePrefixAndSuffix(image);
@@ -84,33 +111,30 @@ function App() {
 
     return (
         <>
-            <BrowserRouter>
-                <Navbar/>
+            <Navbar/>
 
-                {lang.data.hideoutStations.map((item, index) => (
-                    <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
-                ))}
+            {lang.data.hideoutStations.map((item, index) => (
+                <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
+            ))}
 
-                <div className={"flex flex-col p-3"}>
-                    <div className="flex items-center outline outline-1 bg-gray-300 text-2xl p-3">
-                        <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
-                    </div>
-
-                    <div className={"flex flex-col"}>
-
-                        {
-                            Object.entries(items).map(([key, item]) => (
-                                item.count > 0 &&
-                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
-                                           name={item.name}/>
-                            ))
-                        }
-
-
-                    </div>
+            <div className={"flex flex-col p-3"}>
+                <div className="flex items-center outline outline-1 bg-gray-300 text-2xl p-3">
+                    <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
                 </div>
 
-            </BrowserRouter>
+                <div className={"flex flex-col"}>
+
+                    {
+                        Object.entries(items).map(([key, item]) => (
+                            item.count > 0 &&
+                            <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
+                                       name={item.name}/>
+                        ))
+                    }
+
+
+                </div>
+            </div>
 
 
         </>

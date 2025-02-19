@@ -19,7 +19,7 @@ import useLevelStore from "./stores/levelStore.ts";
 function App() {
     const {language, gameMode} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
-    const {items, addItem, updateItemName, render} = useItemStore();
+    const {items, addItem, updateItemName, render,isRender} = useItemStore();
 
     const {levels, setLevel} = useLevelStore();
 
@@ -71,8 +71,17 @@ function App() {
         const params = new URLSearchParams(location.search);
         const levelsParam = params.get('levels');
 
-        if(levelsParam){
-            const levelString = atob(levelsParam);
+        let needParseValue = "";
+
+
+        if (levelsParam) {
+            needParseValue = levelsParam;
+        } else {
+            needParseValue = localStorage.getItem("levels") as string;
+        }
+
+        if(needParseValue){
+            const levelString = atob(needParseValue);
             const parsedLevel = JSON.parse(levelString)
 
             for (const key of Object.keys(parsedLevel)) {
@@ -90,8 +99,12 @@ function App() {
     }, []);
 
     useEffect(() => {
-        const save = btoa(JSON.stringify(levels))
-        window.history.pushState({}, '', '?levels=' + save)
+        if(isRender){
+            const save = btoa(JSON.stringify(levels))
+            localStorage.setItem('levels', save); // localStorage에 저장
+            window.history.pushState({}, '', '?levels=' + save)
+        }
+
     }, [levels]);
 
     useEffect(() => {

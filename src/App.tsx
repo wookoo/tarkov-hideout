@@ -172,7 +172,7 @@ function App() {
                         <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
                     </div>
 
-                    <div className="flex flex-col">
+                    <div className="grid grid-cols-1 2xl:grid-cols-2">
                         {Object.entries(items).map(([key, item]) => (
                             <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
                                        name={item.name}/>

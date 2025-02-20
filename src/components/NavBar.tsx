@@ -1,17 +1,17 @@
 import {useEffect, useState} from "react";
 import kor from "../assets/generic-kor.json"
 import eng from "../assets/generic-eng.json"
-import {IoSettings} from "react-icons/io5";
 import NavButton from "./NavButton.tsx";
 import useConfigStore from "../stores/configStore.ts";
-
+import useLevelStore from "../stores/levelStore.ts";
 export default function Navbar() {
 
     const {language, changeLanguage} = useConfigStore();
 
 
-    const [pack, setPack] = useState(kor);
+    const {resetLevel} = useLevelStore();
 
+    const [pack, setPack] = useState(kor);
     const [show] = useState(true);
 
     useEffect(() => {
@@ -30,8 +30,14 @@ export default function Navbar() {
                 <div>{pack.title}</div>
                 <div className="ml-auto">
                     <div className={"flex items-center"}>
-                        {pack.config}
-                        <IoSettings size={20}/>
+                        <button className={"px-3 rounded bg-red-500 text-white"} onClick={
+
+                            ()=>{
+                                resetLevel();
+                                localStorage.clear();
+                                window.location.replace("/")
+                            }
+                        }>{pack.reset}</button>
                     </div>
                 </div>
             </div>
@@ -68,7 +74,7 @@ export default function Navbar() {
                 </div>
             }
             <div className={"mt-1 text-sm flex"}>
-                Updated : 2025.02.20
+                Updated : 2025.02.21
                 <div className={"ml-auto"}>
                     Developer Tarkov NickName : wookoo
                 </div>

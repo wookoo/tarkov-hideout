@@ -4,7 +4,7 @@ import {create} from "zustand/react";
 interface StoreState {
     levels: Record<string, number>;
     setLevel: (key: string, level: number) => void;
-
+    resetLevel: () => void;
 
 }
 
@@ -16,6 +16,9 @@ const useLevelStore = create<StoreState>((set) => ({
             [key]: level
         },
     })),
+    resetLevel: () => set(() => ({
+        levels: {}
+    }))
 
 
 }));

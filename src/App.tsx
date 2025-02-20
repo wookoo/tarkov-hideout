@@ -33,9 +33,6 @@ function App() {
     // 화면 크기에 따라 `columns` 값을 업데이트하는 함수
     const updateColumns = () => {
         const width = window.innerWidth;
-
-        console.log(width)
-
         if (width >= 1280) {
             setColumns(2); // 큰 화면 (예: 1280px 이상)에서는 4개씩 렌더링
         } else {

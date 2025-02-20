@@ -3,6 +3,7 @@ import ItemAsset from "./ItemAsset.tsx";
 import useItemStore from "../stores/ItemStore.ts";
 import {removePrefixAndSuffix, getStationPrimaryByImageURL} from "../utils/removePrefixAndSuffix.ts";
 import useLevelStore from "../stores/levelStore.ts";
+import useInitStore from "../stores/initStore.ts";
 
 interface SectionProps {
     name: string,
@@ -15,7 +16,8 @@ const Section = ({name, image, items}: SectionProps) => {
 
     const [level, setLevel] = useState(0);
     // const [show, setShow] = useState(true);
-    const {increaseItemCount, isRender, decreaseItemCount} = useItemStore();
+    const {increaseItemCount , decreaseItemCount} = useItemStore();
+    const {isInit} = useInitStore();
 
     const stationId = getStationPrimaryByImageURL(image);
 
@@ -47,7 +49,7 @@ const Section = ({name, image, items}: SectionProps) => {
 
     useEffect(() => {
 
-        if (isRender) {
+        if (isInit) {
 
             for (const key in allItems) {
                 const i = allItems[key];
@@ -64,12 +66,12 @@ const Section = ({name, image, items}: SectionProps) => {
 
         }
 
-    }, [isRender]);
+    }, [isInit]);
 
     useEffect(() => {
 
 
-        if (isRender) {
+        if (isInit) {
 
 
             setGlobalLevel(stationId, level);
@@ -102,7 +104,7 @@ const Section = ({name, image, items}: SectionProps) => {
         prevLevelRef.current = level;
 
 
-    }, [level, isRender]);
+    }, [level, isInit]);
 
     // if (!show) {
     //     return (
@@ -117,8 +119,8 @@ const Section = ({name, image, items}: SectionProps) => {
     // }
 
     return (
-        <div className={"flex flex-col p-3"}>
-            <div className="flex items-center outline outline-1 bg-gray-300">
+        <div className={"flex flex-col p-3 max-w-xl"}>
+            <div className="flex items-center border border-black bg-gray-300">
                 <img src={image} alt={name} className="mr-4"/>
                 <p>{name}</p>
 

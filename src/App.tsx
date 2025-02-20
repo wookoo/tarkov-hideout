@@ -14,14 +14,17 @@ import useItemStore from "./stores/ItemStore.ts";
 import ItemAsset from "./components/ItemAsset.tsx";
 import {removePrefixAndSuffix} from "./utils/removePrefixAndSuffix.ts";
 import useLevelStore from "./stores/levelStore.ts";
+import useInitStore from "./stores/initStore.ts";
 
 
 function App() {
     const {language, gameMode} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
-    const {items, addItem, updateItemName, render,isRender} = useItemStore();
+    const {items, addItem, updateItemName} = useItemStore();
 
     const {levels, setLevel} = useLevelStore();
+
+    const {init, isInit} = useInitStore();
 
     const location = useLocation();
 
@@ -80,26 +83,25 @@ function App() {
             needParseValue = localStorage.getItem("levels") as string;
         }
 
-        if(needParseValue){
+        if (needParseValue) {
             const levelString = atob(needParseValue);
             const parsedLevel = JSON.parse(levelString)
 
             for (const key of Object.keys(parsedLevel)) {
-                if (isNaN(+parsedLevel[key] )) {
+                if (isNaN(+parsedLevel[key])) {
 
                     setLevel(key, 0)
-                }
-                else{
-                    setLevel(key,parsedLevel[key])
+                } else {
+                    setLevel(key, parsedLevel[key])
                 }
             }
         }
-        render();
+        init();
 
     }, []);
 
     useEffect(() => {
-        if(isRender){
+        if (isInit) {
             const save = btoa(JSON.stringify(levels))
             localStorage.setItem('levels', save); // localStorage에 저장
             window.history.pushState({}, '', '?levels=' + save)
@@ -126,27 +128,34 @@ function App() {
         <>
             <Navbar/>
 
-            {lang.data.hideoutStations.map((item, index) => (
-                <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
-            ))}
+            <div className="md:flex md:justify-center">
 
-            <div className={"flex flex-col p-3"}>
-                <div className="flex items-center outline outline-1 bg-gray-300 text-2xl p-3">
-                    <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
+                <div className={"xl:grid xl:grid-cols-2 bg-white"}>
+                    {lang.data.hideoutStations.map((item, index) => (
+                        <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
+                    ))}
                 </div>
 
-                <div className={"flex flex-col"}>
-
-                    {
-                        Object.entries(items).map(([key, item]) => (
-                            item.count > 0 &&
-                            <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
-                                       name={item.name}/>
-                        ))
-                    }
 
 
+                <div className={"flex flex-col p-3 md:flex-col-2 bg-white"}>
+                    <div className="flex items-center border border-black bg-gray-300 text-2xl p-3">
+                        <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
+                    </div>
+
+                    <div className={"flex flex-col"}>
+
+                        {
+                            Object.entries(items).map(([key, item]) => (
+                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
+                                           name={item.name}/>
+                            ))
+                        }
+
+
+                    </div>
                 </div>
+
             </div>
 
 

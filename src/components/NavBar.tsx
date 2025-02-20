@@ -25,7 +25,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="max-w-7xl bg-gray-600 p-4 text-white flex flex-col">
+        <nav className="bg-gray-600 p-4 text-white flex flex-col lg:px-16 ">
             <div className={"flex"}>
                 <div>{pack.title}</div>
                 <div className="ml-auto">

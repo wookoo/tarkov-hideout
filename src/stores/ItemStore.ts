@@ -11,21 +11,15 @@ interface ItemState {
 
 interface StoreState {
     items: Record<string, ItemState>;
-    isRender: boolean;
     addItem: (key: string, item: ItemState) => void;
     increaseItemCount: (key: string, count: number) => void;
     decreaseItemCount: (key: string, count: number) => void;
     updateItemName: (key: string, name: string) => void;
-    render: () => void;
-
 }
 
 
 const useItemStore = create<StoreState>((set) => ({
     items: {},
-
-    isRender: false,
-    render: () => set(() => ({isRender: true})),
     addItem: (key, item) => set((state) => ({
         items: {
             ...state.items,

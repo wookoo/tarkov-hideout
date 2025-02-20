@@ -151,7 +151,7 @@ function App() {
             <div className="md:flex md:justify-center min-h-screen">
 
 
-                <div className="bg-white flex flex-col flex-wrap justify-center lg:grid lg:grid-cols-2">
+                <div className="bg-white flex flex-col justify-center lg:grid lg:grid-cols-2">
                     {lang.data.hideoutStations
                         // .slice(
                         //     Math.floor((lang.data.hideoutStations.length / columns) * columnIndex),

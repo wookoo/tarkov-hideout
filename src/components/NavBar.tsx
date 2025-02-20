@@ -35,7 +35,7 @@ export default function Navbar() {
                             ()=>{
                                 resetLevel();
                                 localStorage.clear();
-                                window.location.replace("/")
+                                window.location.replace("/tarkov-hideout")
                             }
                         }>{pack.reset}</button>
                     </div>

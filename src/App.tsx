@@ -28,17 +28,17 @@ function App() {
 
     const location = useLocation();
 
-    const [columns, setColumns] = useState(1); // 기본적으로 1열로 설정
+    // const [columns, setColumns] = useState(1); // 기본적으로 1열로 설정
 
     // 화면 크기에 따라 `columns` 값을 업데이트하는 함수
-    const updateColumns = () => {
-        const width = window.innerWidth;
-        if (width >= 1280) {
-            setColumns(2); // 큰 화면 (예: 1280px 이상)에서는 4개씩 렌더링
-        } else {
-            setColumns(1); // 모바일 화면에서는 1개씩 렌더링
-        }
-    };
+    // const updateColumns = () => {
+    //     const width = window.innerWidth;
+    //     if (width >= 1280) {
+    //         setColumns(2); // 큰 화면 (예: 1280px 이상)에서는 4개씩 렌더링
+    //     } else {
+    //         setColumns(1); // 모바일 화면에서는 1개씩 렌더링
+    //     }
+    // };
 
 
     useEffect(() => {
@@ -109,13 +109,13 @@ function App() {
                 }
             }
         }
-        updateColumns();
-        window.addEventListener("resize", updateColumns);
+        // updateColumns();
+        // window.addEventListener("resize", updateColumns);
         init();
 
-        return () => {
-            window.removeEventListener("resize", updateColumns); // 컴포넌트 언마운트 시 이벤트 리스너 정리
-        };
+        // return () => {
+        //     window.removeEventListener("resize", updateColumns); // 컴포넌트 언마운트 시 이벤트 리스너 정리
+        // };
 
 
     }, []);
@@ -151,23 +151,17 @@ function App() {
             <div className="md:flex md:justify-center min-h-screen">
 
 
-                {
-                    Array.from({length: columns}).map((_, columnIndex) => (
-                        <div className="bg-white flex flex-wrap justify-center">
-                            <div key={columnIndex}>
-                                {lang.data.hideoutStations
-                                    .slice(
-                                        Math.floor((lang.data.hideoutStations.length / columns) * columnIndex),
-                                        Math.floor((lang.data.hideoutStations.length / columns) * (columnIndex + 1))
-                                    )
-                                    .map((item, index) => (
-                                        <Section name={item.name} image={item.imageLink} items={item.levels}
-                                                 key={index}/>
-                                    ))}
-                            </div>
-                        </div>
-                    ))
-                }
+                <div className="bg-white flex flex-col flex-wrap justify-center lg:grid lg:grid-cols-2">
+                    {lang.data.hideoutStations
+                        // .slice(
+                        //     Math.floor((lang.data.hideoutStations.length / columns) * columnIndex),
+                        //     Math.floor((lang.data.hideoutStations.length / columns) * (columnIndex + 1))
+                        // )
+                        .map((item, index) => (
+                            <Section name={item.name} image={item.imageLink} items={item.levels}
+                                     key={index}/>
+                        ))}
+                </div>
 
 
                 <div className="flex flex-col p-3 bg-white">

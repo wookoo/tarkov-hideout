@@ -28,6 +28,22 @@ function App() {
 
     const location = useLocation();
 
+    const [columns, setColumns] = useState(1); // 기본적으로 1열로 설정
+
+    // 화면 크기에 따라 `columns` 값을 업데이트하는 함수
+    const updateColumns = () => {
+        const width = window.innerWidth;
+
+        console.log(width)
+
+        if (width >= 1280) {
+            setColumns(2); // 큰 화면 (예: 1280px 이상)에서는 4개씩 렌더링
+        } else {
+            setColumns(1); // 모바일 화면에서는 1개씩 렌더링
+        }
+    };
+
+
     useEffect(() => {
         if (language) {
             if (gameMode) {
@@ -96,7 +112,14 @@ function App() {
                 }
             }
         }
+        updateColumns();
+        window.addEventListener("resize", updateColumns);
         init();
+
+        return () => {
+            window.removeEventListener("resize", updateColumns); // 컴포넌트 언마운트 시 이벤트 리스너 정리
+        };
+
 
     }, []);
 
@@ -130,11 +153,26 @@ function App() {
 
             <div className="md:flex md:justify-center min-h-screen">
 
-                <div className="bg-white gap-4 p-4">
-                    {lang.data.hideoutStations.map((item, index) => (
-                        <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
-                    ))}
-                </div>
+
+                {
+                    Array.from({length: columns}).map((_, columnIndex) => (
+                        <div className="bg-white flex flex-wrap justify-center">
+                            <div key={columnIndex}>
+                                {lang.data.hideoutStations
+                                    .slice(
+                                        Math.floor((lang.data.hideoutStations.length / columns) * columnIndex),
+                                        Math.floor((lang.data.hideoutStations.length / columns) * (columnIndex + 1))
+                                    )
+                                    .map((item, index) => (
+                                        <Section name={item.name} image={item.imageLink} items={item.levels}
+                                                 key={index}/>
+                                    ))}
+                            </div>
+                        </div>
+                    ))
+                }
+
+
                 <div className="flex flex-col p-3 bg-white">
                     <div className="flex items-center border border-black bg-gray-300 text-2xl p-3">
                         <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>

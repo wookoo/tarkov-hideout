@@ -128,39 +128,30 @@ function App() {
         <>
             <Navbar/>
 
-            <div className="md:flex md:justify-center">
+            <div className="md:flex md:justify-center min-h-screen">
 
-                <div className={"xl:grid xl:grid-cols-2 bg-white"}>
+                <div className="bg-white gap-4 p-4">
                     {lang.data.hideoutStations.map((item, index) => (
                         <Section name={item.name} image={item.imageLink} items={item.levels} key={index}/>
                     ))}
                 </div>
-
-
-
-                <div className={"flex flex-col p-3 md:flex-col-2 bg-white"}>
+                <div className="flex flex-col p-3 bg-white">
                     <div className="flex items-center border border-black bg-gray-300 text-2xl p-3">
                         <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
                     </div>
 
-                    <div className={"flex flex-col"}>
-
-                        {
-                            Object.entries(items).map(([key, item]) => (
-                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
-                                           name={item.name}/>
-                            ))
-                        }
-
-
+                    <div className="flex flex-col">
+                        {Object.entries(items).map(([key, item]) => (
+                            <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
+                                       name={item.name}/>
+                        ))}
                     </div>
                 </div>
 
             </div>
-
-
         </>
-    )
+    );
+
 }
 
 

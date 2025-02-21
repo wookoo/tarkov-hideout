@@ -4,5 +4,11 @@
   "language" : "한국어",
   "mode" : "게임 모드",
   "remain" : "남은 아이템 목록",
-  "reset" : "리셋"
+  "reset" : "리셋",
+  "updated_at" : "2025년 2월 21일",
+  "updated" : "업데이트",
+  "developer_tarkov" : "개발자 탈콥 닉네임",
+  "image" : "이미지",
+  "name" : "이름",
+  "need" : "필요"
 }

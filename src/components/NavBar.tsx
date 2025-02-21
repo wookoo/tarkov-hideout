@@ -1,27 +1,14 @@
-import {useEffect, useState} from "react";
-import kor from "../assets/generic-kor.json"
-import eng from "../assets/generic-eng.json"
+import {useState} from "react";
 import NavButton from "./NavButton.tsx";
 import useConfigStore from "../stores/configStore.ts";
 import useLevelStore from "../stores/levelStore.ts";
 export default function Navbar() {
 
-    const {language, changeLanguage} = useConfigStore();
+    const {language, changeLanguage,pack} = useConfigStore();
 
 
     const {resetLevel} = useLevelStore();
-
-    const [pack, setPack] = useState(kor);
     const [show] = useState(true);
-
-    useEffect(() => {
-
-        if (language) {
-            setPack(kor)
-            return
-        }
-        setPack(eng)
-    }, [language])
 
     return (
 
@@ -74,9 +61,9 @@ export default function Navbar() {
                 </div>
             }
             <div className={"mt-1 text-sm flex"}>
-                Updated : 2025.02.21
+                {pack.updated} : {pack.updated_at}
                 <div className={"ml-auto"}>
-                    Developer Tarkov NickName : wookoo
+                    {pack.developer_tarkov} : wookoo
                 </div>
             </div>
 

@@ -18,7 +18,7 @@ import useInitStore from "./stores/initStore.ts";
 
 
 function App() {
-    const {language, gameMode} = useConfigStore();
+    const {language, gameMode,pack} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
     const {items, addItem, updateItemName} = useItemStore();
 
@@ -172,13 +172,13 @@ function App() {
                         <thead className={"border border-black"}>
                         <tr>
                             <th className={"border border-black"}>
-                                이미지
+                                {pack.image}
                             </th>
                             <th className={"border border-black"}>
-                                이름
+                                {pack.name}
                             </th>
                             <th className={"border border-black"}>
-                                필요
+                                {pack.need}
                             </th>
                             {/*<th className={"border border-black"}>*/}
                             {/*    보유*/}

@@ -4,5 +4,11 @@
   "language" : "english",
   "mode" : "Game mode",
   "remain" : "Remain Item List",
-  "reset" : "reset"
+  "reset" : "reset",
+  "updated_at" : "2025년 2월 21일",
+  "updated" : "Updated",
+  "developer_tarkov" : "Developer Tarkov NickName",
+  "image" : "Image",
+  "name" : "Name",
+  "need" : "Need"
 }

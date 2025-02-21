@@ -10,5 +10,7 @@
   "developer_tarkov" : "Developer Tarkov NickName",
   "image" : "Image",
   "name" : "Name",
-  "need" : "Need"
+  "need" : "Need",
+  "have" : "Have",
+  "lack" : "lack"
 }

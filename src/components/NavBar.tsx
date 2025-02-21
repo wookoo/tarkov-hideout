@@ -2,12 +2,14 @@ import {useState} from "react";
 import NavButton from "./NavButton.tsx";
 import useConfigStore from "../stores/configStore.ts";
 import useLevelStore from "../stores/levelStore.ts";
+import useQuantityStores from "../stores/quantityStore.ts";
 export default function Navbar() {
 
     const {language, changeLanguage,pack} = useConfigStore();
 
 
     const {resetLevel} = useLevelStore();
+    const {resetQuantity} =useQuantityStores();
     const [show] = useState(true);
 
     return (
@@ -21,6 +23,7 @@ export default function Navbar() {
 
                             ()=>{
                                 resetLevel();
+                                resetQuantity();
                                 localStorage.clear();
                                 window.location.replace("/tarkov-hideout")
                             }

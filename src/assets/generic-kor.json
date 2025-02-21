@@ -10,5 +10,7 @@
   "developer_tarkov" : "개발자 탈콥 닉네임",
   "image" : "이미지",
   "name" : "이름",
-  "need" : "필요"
+  "need" : "필요",
+  "have" : "보유",
+  "lack" : "부족"
 }

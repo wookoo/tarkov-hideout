@@ -15,12 +15,15 @@ import ItemAsset from "./components/ItemAsset.tsx";
 import {removePrefixAndSuffix} from "./utils/removePrefixAndSuffix.ts";
 import useLevelStore from "./stores/levelStore.ts";
 import useInitStore from "./stores/initStore.ts";
+import useQuantityStores from "./stores/quantityStore.ts";
 
 
 function App() {
-    const {language, gameMode,pack} = useConfigStore();
+    const {language, gameMode, pack} = useConfigStore();
     const [lang, setLang] = useState(pveKorean);
     const {items, addItem, updateItemName} = useItemStore();
+
+    const {quantityItems, setQuantity} = useQuantityStores();
 
     const {levels, setLevel} = useLevelStore();
 
@@ -83,13 +86,10 @@ function App() {
                 }
             }
         }
-
         const params = new URLSearchParams(location.search);
         const levelsParam = params.get('levels');
-
         let needParseValue = "";
-
-
+        //levels 파싱 시작
         if (levelsParam) {
             needParseValue = levelsParam;
         } else {
@@ -109,6 +109,36 @@ function App() {
                 }
             }
         }
+
+
+
+
+        const quantityParam = params.get('quantity');
+        needParseValue = "";
+        //levels 파싱 시작
+        if (quantityParam) {
+            needParseValue = quantityParam;
+        } else {
+            needParseValue = localStorage.getItem("quantity") as string;
+        }
+
+        if (needParseValue) {
+            const levelString = atob(needParseValue);
+            const parsedQuantity = JSON.parse(levelString)
+
+            for (const key of Object.keys(parsedQuantity)) {
+                if (isNaN(+parsedQuantity[key])) {
+
+                    setQuantity(key, 0)
+                } else {
+                    setQuantity(key, parsedQuantity[key])
+                }
+            }
+        }
+        //수량 파싱 끝
+
+
+
         // updateColumns();
         // window.addEventListener("resize", updateColumns);
         init();
@@ -122,12 +152,23 @@ function App() {
 
     useEffect(() => {
         if (isInit) {
-            const save = btoa(JSON.stringify(levels))
-            localStorage.setItem('levels', save); // localStorage에 저장
-            window.history.pushState({}, '', '?levels=' + save)
+            const levelSave = btoa(JSON.stringify(levels))
+            const quantitySave = btoa(JSON.stringify(quantityItems))
+            localStorage.setItem('levels', levelSave); // localStorage에 저장
+            localStorage.setItem('quantity', quantitySave)
+            window.history.pushState({}, '', `?levels=${levelSave}&quantity=${quantitySave}`)
         }
 
-    }, [levels]);
+    }, [levels, quantityItems]);
+
+    useEffect(() => {
+        // console.log(JSON.stringify(items))
+        for (const key of Object.keys(items)) {
+            if (quantityItems[key] === undefined) {
+                setQuantity(key, 0);
+            }
+        }
+    }, [items]);
 
     useEffect(() => {
         for (const item of lang.data.hideoutStations) {
@@ -180,9 +221,12 @@ function App() {
                             <th className={"border border-black"}>
                                 {pack.need}
                             </th>
-                            {/*<th className={"border border-black"}>*/}
-                            {/*    보유*/}
-                            {/*</th>*/}
+                            <th className={"border border-black"}>
+                                {pack.have}
+                            </th>
+                            <th className={"border border-black"}>
+                                {pack.lack}
+                            </th>
 
                         </tr>
                         </thead>
@@ -194,7 +238,27 @@ function App() {
 
                                 <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
                                            name={item.name}/>
-                                {/*<td className={"border-l border-r border-b border-black  w-16 text-center"}><input className={"w-12 text-center"} value={"∞"} /></td>*/}
+                                <td className={"border-l border-r border-b border-black  w-16 text-center"}>
+
+                                    <input className={"w-12 text-center"} value={quantityItems[key]}
+
+                                           onChange={(e) => {
+                                               const number = Number(e.target.value);
+                                               if (!isNaN(number)) {
+
+                                                   setQuantity(key, number)
+                                               }
+                                           }}
+
+                                    />
+
+                                </td>
+
+                                <td className="border-l border-r border-b border-black text-center w-16 px-3">
+                                    {items[key].count - quantityItems[key]}
+
+
+                                </td>
 
                             </tr>
                         ))}

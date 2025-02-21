@@ -7,14 +7,11 @@ interface ItemAssetProps {
 
 const ItemAsset = ({ count, image, wiki, name }: ItemAssetProps) => {
     return (
-        <a className="flex items-center border-l border-b border-r border-black" href={wiki}>
-            <img src={image} alt={name} className="mr-4 w-16" />
-            <p>{name}</p>
-            {/* 오른쪽에 고정된 너비와 세로줄 추가 */}
-            <div className="ml-auto w-32 px-1 text-center border-l border-black">
-                {count}
-            </div>
-        </a>
+        <tr className={""}>
+            <td className={"border border-b border-black w-20"}><img src={image}/></td>
+            <td className={"border-b border-black px-3"}><a href={wiki}>{name}</a></td>
+            <td className={"border-l border-r border-b border-black text-center w-16 px-3"}>{count}</td>
+        </tr>
     );
 }
 export default ItemAsset;

@@ -155,10 +155,6 @@ function App() {
 
                     <div className="bg-white flex flex-col justify-center lg:grid lg:grid-cols-2">
                         {lang.data.hideoutStations
-                            // .slice(
-                            //     Math.floor((lang.data.hideoutStations.length / columns) * columnIndex),
-                            //     Math.floor((lang.data.hideoutStations.length / columns) * (columnIndex + 1))
-                            // )
                             .map((item, index) => (
                                 <Section name={item.name} image={item.imageLink} items={item.levels}
                                          key={index}/>
@@ -172,12 +168,16 @@ function App() {
                         <p>{language ? "남은 아이템 목록" : "Remain Item List"}</p>
                     </div>
 
-                    <div className="grid grid-cols-1 2xl:grid-cols-2">
+                    <table>
+                        <tbody>
+
+
                         {Object.entries(items).map(([key, item]) => (
                             <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
                                        name={item.name}/>
                         ))}
-                    </div>
+                        </tbody>
+                    </table>
                 </div>
 
             </div>

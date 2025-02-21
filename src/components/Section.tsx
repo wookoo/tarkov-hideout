@@ -16,7 +16,7 @@ const Section = ({name, image, items}: SectionProps) => {
 
     const [level, setLevel] = useState(0);
     // const [show, setShow] = useState(true);
-    const {increaseItemCount , decreaseItemCount} = useItemStore();
+    const {increaseItemCount, decreaseItemCount} = useItemStore();
     const {isInit} = useInitStore();
 
     const stationId = getStationPrimaryByImageURL(image);
@@ -59,8 +59,7 @@ const Section = ({name, image, items}: SectionProps) => {
 
             if (levels[stationId] === undefined) {
                 setGlobalLevel(stationId, 0);
-            }
-            else{
+            } else {
                 setLevel(levels[stationId])
             }
 
@@ -139,16 +138,26 @@ const Section = ({name, image, items}: SectionProps) => {
             </div>
 
             {
-                items[level] && <div className={"flex flex-col"}>
+                items[level] && <table>
+                    <tbody>
+
+
                     {
                         items[level].itemRequirements.map(
-                            (i: any,index:any) => {
+                            (i: any, index: any) => {
+                                // return (<tr className={""}>
+                                //         <td className={"border border-b border-black w-16"}><img src={i.item.imageLink}/></td>
+                                //         <td className={"border-b border-black px-3"}>{i.item.name}</td>
+                                //         <td className={"border-l border-r border-b border-black text-center w-16 px-3"}>{i.count}</td>
+                                //     </tr>
+                                // )
                                 return <ItemAsset key={index} count={i.count} name={i.item.name} image={i.item.imageLink}
                                                   wiki={i.item.wikiLink}/>
                             }
                         )
                     }
-                </div>
+                    </tbody>
+                </table>
             }
 
 

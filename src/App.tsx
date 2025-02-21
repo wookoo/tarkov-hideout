@@ -169,12 +169,34 @@ function App() {
                     </div>
 
                     <table>
+                        <thead className={"border border-black"}>
+                        <tr>
+                            <th className={"border border-black"}>
+                                이미지
+                            </th>
+                            <th className={"border border-black"}>
+                                이름
+                            </th>
+                            <th className={"border border-black"}>
+                                필요
+                            </th>
+                            {/*<th className={"border border-black"}>*/}
+                            {/*    보유*/}
+                            {/*</th>*/}
+
+                        </tr>
+                        </thead>
                         <tbody>
 
 
                         {Object.entries(items).map(([key, item]) => (
-                            <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
-                                       name={item.name}/>
+                            <tr>
+
+                                <ItemAsset key={key} count={item.count} image={item.image} wiki={item.wiki}
+                                           name={item.name}/>
+                                {/*<td className={"border-l border-r border-b border-black  w-16 text-center"}><input className={"w-12 text-center"} value={"∞"} /></td>*/}
+
+                            </tr>
                         ))}
                         </tbody>
                     </table>

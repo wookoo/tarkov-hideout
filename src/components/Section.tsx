@@ -145,14 +145,13 @@ const Section = ({name, image, items}: SectionProps) => {
                     {
                         items[level].itemRequirements.map(
                             (i: any, index: any) => {
-                                // return (<tr className={""}>
-                                //         <td className={"border border-b border-black w-16"}><img src={i.item.imageLink}/></td>
-                                //         <td className={"border-b border-black px-3"}>{i.item.name}</td>
-                                //         <td className={"border-l border-r border-b border-black text-center w-16 px-3"}>{i.count}</td>
-                                //     </tr>
-                                // )
-                                return <ItemAsset key={index} count={i.count} name={i.item.name} image={i.item.imageLink}
-                                                  wiki={i.item.wikiLink}/>
+                                return (<tr>
+                                        <ItemAsset key={index} count={i.count} name={i.item.name} image={i.item.imageLink}
+                                                   wiki={i.item.wikiLink}/>
+
+
+                                    </tr>
+                                )
                             }
                         )
                     }

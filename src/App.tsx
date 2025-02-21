@@ -224,9 +224,9 @@ function App() {
                             <th className={"border border-black"}>
                                 {pack.have}
                             </th>
-                            <th className={"border border-black"}>
-                                {pack.lack}
-                            </th>
+                            {/*<th className={"border border-black"}>*/}
+                            {/*    {pack.lack}*/}
+                            {/*</th>*/}
 
                         </tr>
                         </thead>
@@ -254,11 +254,11 @@ function App() {
 
                                 </td>
 
-                                <td className="border-l border-r border-b border-black text-center w-16 px-3">
-                                    {items[key].count - quantityItems[key]}
+                                {/*<td className="border-l border-r border-b border-black text-center w-16 px-3">*/}
+                                {/*    {items[key].count - quantityItems[key]}*/}
 
 
-                                </td>
+                                {/*</td>*/}
 
                             </tr>
                         ))}
